@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HW</title>
+  <style>
+    body {
+      font-family: '微軟正黑體';
+      margin: 0;
+    }
+
+    /* 滿版黑色背景 */
+    #navbar {
+      background-color: #000;
+    }
+
+    /* 固定容器 */
+    .container {
+      width: 85%;
+      margin: auto;
+    }
+
+
+    .content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      color: #fff;
+      font-size: 25px;
+    }
+
+    a {
+      color: #999;
+      text-decoration: none;
+      font-size: 20px;
+      margin: 10px;
+    }
+
+    .home {
+      color: #fff;
+    }
+
+    .content1 {
+      margin: auto;
+      width: 100%;
+      height: 300px;
+      /* border: 1px solid #333; */
+    }
+
+    .row1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    /* 設定整體畫面的85% */
+    .center {
+      justify-content: space-between;
+      align-items: center;
+      width: 85%;
+      height: 100%;
+      display: flex;
+      /* background: #ffa; */
+    }
+
+    .col {
+      width: 50%;
+      height: 100%;
+      margin-right: 30px;
+      display: flex;
+      align-items: center;
+      /* background: lightgray; */
+    }
+
+    .text1 h1 {
+      font-size: 40px;
+    }
+
+    .boxx {
+      width: 100%;
+      height: 100%;
+      justify-content: center;
+      align-items: center;
+      border-radius: 10px;
+      background: rgb(228, 228, 228);
+    }
+
+    .boxx p {
+      text-align: center;
+      /* line-height: 400px; */
+      font-size: 80px;
+      color: #999;
+    }
+
+    button {
+      margin-top: 3px;
+      width: 150px;
+      height: 40px;
+      border-radius: 10px;
+      border: none;
+      background: #0d6efd;
+      color: #fff;
+      font-size: 18px;
+      cursor: pointer;
+    }
+
+    /*    中間灰色900*400區域       */
+    .content2 {
+      margin: auto;
+      width: 100%;
+      height: 120px;
+      /* border: 1px solid #333; */
+    }
+
+    .row2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .boxxx {
+      width: 100%;
+      height: 100%;
+      background: rgb(108, 117, 125);
+      border-radius: 10px;
+      /* display: flex; */
+    }
+
+    .text2 {
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .boxxx p {
+      text-align: center;
+      color: #fff;
+      font-size: 20px;
+    }
+
+    .br {
+      width: 100%;
+      height: 50px;
+      background: #fff;
+    }
+
+    /*          下方選單             */
+    .content3 {
+      margin: auto;
+      width: 100%;
+      height: 300px;
+      /* border: 1px solid #333; */
+    }
+
+    .row3 {
+      /* background:#ffa; */
+      display: flex;
+      justify-content: center;
+      align-content: space-between;
+    }
+
+    .col2 {
+      flex-basis: 400px;
+      height: 80%;
+      background: #fff;
+      padding: 20px;
+      margin-block: 50px;
+      border: 1px solid #cfcfcf;
+      border-radius: 10px;
+      display: flex;
+    }
+
+    .but3 {
+      align-items: flex-end;
+      /* background: #000; */
+      width: 100%;
+    }
+
+    #footer {
+      background: #000000;
+      width: 100%;
+      height: 150px
+    }
+
+    .containerrow {
+      color: #fff;
+      text-align: center;
+      width: 85%;
+      height: 100%;
+      /* clear: both; */
+      margin: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div id="navbar">
+    <div class="container">
+      <!-- 內容=> flexbox -->
+      <div class="content">
+        <!-- logo flex-item -->
+        <div class="logo">
+          <p>Start Bootstrap</p>
+        </div>
+        <!-- 選單 flex-item -->
+        <nav>
+          <a href="#" class="home">Home</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+          <a href="#">Services</a>
+        </nav>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="br"></div>
+
+  <!----------- 900*400 -------------->
+  <div class="content1 row1">
+    <div class="center">
+      <div class="col">
+        <div class="boxx">
+          <p>900X400</p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="text1">
+          <h1>Business Name or Tagline</h1>
+          <p>This is a template that is great for small businesses. It doesn't have too much fancy flare to it, but it
+            makes a great use of the standard Bootstrap core components. Feel free to use this template for any project
+            you want!</p>
+          <button class="but1">call to Action!</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="br"></div>
+  <!-- 中間灰色區域 -->
+  <div class="content2 row2">
+    <div class="center">
+      <div class="boxxx">
+        <div class="text2">
+          <p>This call to action card is a great place to showcase some important information or display a clever
+            tagline!
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="br"></div>
+  <div class="content3 row3">
+    <div class="center">
+      <div class="col2">
+        <div class="textOne">
+          <h1>Card One</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam
+            molestias corporis quod, ea minima accusamus.</p>
+          <hr>
+          <div class="but3">
+            <button>More Info</button>
+          </div>
+        </div>
+      </div>
+      <div class="col2">
+        <div class="textOne">
+          <h1>Card Two</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod tenetur ex natus at dolorem enim! Nesciunt
+            pariatur voluptatem sunt quam eaque, vel, non in id dolore voluptates quos eligendi labore.</p>
+          <hr>
+          <div class="but3">
+            <button>More Info</button>
+          </div>
+        </div>
+      </div>
+      <div class="col2">
+        <div class="textOne">
+          <h1>Card Three</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam
+            molestias corporis quod, ea minima accusamus.</p>
+          <hr>
+          <div class="but3">
+            <button>More Info</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="br"></div>
+  <!------------- 最下面 ---------------->
+  <div id="footer">
+    <div class="containerrow">
+      <p>Copyright © Your Website 2023</p>
+    </div>
+  </div>
+</body>
+
+</html>
